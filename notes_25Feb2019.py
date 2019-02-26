@@ -3,9 +3,9 @@
 
 ## unordered collection of keys and values
 ## written with curly brackets
-## Format: fict_name = {key1: value, key2: value }
+## Format: dict_name = {key1: value, key2: value}
 ## when keys have multiple values, we put them in lists
-## i.e. list of 'mammals'
+## i.e. list of 'mammals' = ['cat', 'dog', 'horse']
 
 ## Grab values from dictionary using strings, not numbers
 ## dict[key]
