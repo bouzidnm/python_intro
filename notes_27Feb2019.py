@@ -1,5 +1,5 @@
 ## Notes for 27 Feb 2019
-## For loops
+## For loops; .append(); .keys(); .values()
 
 ## Used to iterate over a sequence of values; to simplify redundant code
 ## Print out each item of a list individually
