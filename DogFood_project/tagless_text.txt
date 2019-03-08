@@ -1,0 +1,5389 @@
+
+
+
+Dog Food: Top Brands, Low Prices - Free Shipping | Chewy
+
+
+
+
+
+
+    !function(e){function r(r){for(var n,f,c=r[0],u=r[1],d=r[2],l=0,b=[];l<c.length;l++)f=c[l],o[f]&&b.push(o[f][0]),o[f]=0;for(n in u)Object.prototype.hasOwnProperty.call(u,n)&&(e[n]=u[n]);for(i&&i(r);b.length;)b.shift()();return a.push.apply(a,d||[]),t()}function t(){for(var e,r=0;r<a.length;r++){for(var t=a[r],n=!0,c=1;c<t.length;c++){var u=t[c];0!==o[u]&&(n=!1)}n&&(a.splice(r--,1),e=f(f.s=t[0]))}return e}var n={},o={0:0},a=[];function f(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,f),t.l=!0,t.exports}f.e=function(e){var r=[],t=o[e];if(0!==t)if(t)r.push(t[2]);else{var n=new Promise(function(r,n){t=o[e]=[r,n]});r.push(t[2]=n);var a,c=document.createElement("script");c.charset="utf-8",c.timeout=120,f.nc&&c.setAttribute("nonce",f.nc),c.src=function(e){return f.p+""+({1:"vendors"}[e]||e)+"."+{1:"cb80c1ef8897f07236fe",2:"502518bddf2a49e0c2f5",3:"ea79fcce9a904ea118db",4:"5ba8887f41a41f30a620",5:"750d5f165b2922c885e2",80:"902ade41c63855226900",81:"35e6965707584a44c401",82:"ad1d7847e1981e6ed589",83:"1419146d64cc3d1f7b0c",84:"3501c7fcdedff51167ca",85:"3f7b8d7d5379268bb0ab",86:"dea2736d614e0d2ce96d",87:"66df28dce0d15f4c05f6",88:"11134d940ef082fe8b81",89:"3b9a796f250ac754e361",90:"f9820dab52516885562f",91:"922de5ec0fde0033ebab",92:"b9252bf6a2841baed529",93:"aa31246648c94a33e682",94:"e6e20502773ab34adcf0",95:"d6114089e7bbfc73a033",96:"8bb67f0bd5e67b7fe31a"}[e]+".packaged.js"}(e),a=function(r){c.onerror=c.onload=null,clearTimeout(u);var t=o[e];if(0!==t){if(t){var n=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src,f=new Error("Loading chunk "+e+" failed.\n("+n+": "+a+")");f.type=n,f.request=a,t[1](f)}o[e]=void 0}};var u=setTimeout(function(){a({type:"timeout",target:c})},12e4);c.onerror=c.onload=a,document.head.appendChild(c)}return Promise.all(r)},f.m=e,f.c=n,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(e,r){if(1&r&&(e=f(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)f.d(t,n,function(r){return e[r]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="",f.oe=function(e){throw console.error(e),e},Object.defineProperty(f,"p",{get:function(){return"/assets/js/"}});var c=window.webpackJsonp=window.webpackJsonp||[],u=c.push.bind(c);c.push=r,c=c.slice();for(var d=0;d<c.length;d++)r(c[d]);var i=u;t()}([]);
+//# sourceMappingURL=runtime.263dd72e1dd652d55ac8.packaged.js.map
+
+
+
+
+{
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "Chewy",
+    "url": "http://www.chewy.com",
+    "sameAs": [
+        "http://www.facebook.com/chewy",
+        "https://www.youtube.com/channel/UCpWl2nwLDQQI4TTa1kJgxrg",
+        "http://instagram.com/chewy",
+        "http://twitter.com/chewy",
+        "https://www.linkedin.com/company/2433416",
+        "http://pinterest.com/chewy"
+    ],
+    "contactPoint": [{
+        "@type": "ContactPoint",
+        "telephone": "+1-800-672-4399",
+        "contactType": "customer service"
+    }]
+}
+
+
+  
+  var pageType = "browse";
+  if (pageType === 'browse-brands') pageType = 'brand-page';
+
+  window.chewyConf = {
+    // App Context //
+
+    storeId : 10,
+    currency : "USD",
+
+    version : "hotfix-3.0-1227.3-1",
+    environment : "production",
+    production : true,
+
+    sentryPublicDsn : "https://9ba125d92cbf4e6d92f28364e8a4aae8@sentry.io/125686",
+
+    // Request Context //
+
+    cid : "-1002",
+    uid : "-1002",
+    csr : false,
+    intranetUser : false,
+    priviledged : false,
+    registeredUser : false,
+    genericUser : true,
+    authenticated : false,
+    personalizationId : "kuql1U34SGSiAP776MCw8w",
+    analyticsAuthenticationState : "generic",
+
+    uriValuesJson: {"scheme":"https","serverName":"www.chewy.com","serverPort":443,"searchEngine":false,"defaultPort":true,"notDefaultPort":false},
+
+    requestId : "42e46cff,03-5C80E51D-4750294",
+    isBot : false,
+
+    viewType : "desktop",
+    mobileView : false,
+    desktopView : true,
+    pageType : pageType,
+
+    toggles: {
+      tokenizationEnabled: true,
+      autoshipFirstTimeDiscountPercent: 30,
+      autoshipFirstTimeMaxSavingsAmount: 20,
+      zipCorrectionEnabled: true,
+      isRiskifiedEnabled: true
+    },
+
+    kount: {
+        srcPageUuid: "",
+        kountCollectorEndpoint: "https://ssl.kaptcha.com",
+        kountMerchantId: "300143",
+    },
+    
+    optimizely : {
+      dataFile : {"version": "4", "rollouts": [], "typedAudiences": [], "anonymizeIP": true, "projectId": "10594014474", "variables": [], "featureFlags": [], "experiments": [], "audiences": [{"id": "11428158261", "conditions": "[\"and\", [\"or\", [\"or\", {\"name\": \"isVisitor\", \"type\": \"custom_attribute\", \"value\": \"false\"}]]]", "name": "UAT - Internal Traffic"}, {"conditions": "[\"or\", {\"match\": \"exact\", \"name\": \"$opt_dummy_attribute\", \"type\": \"custom_attribute\", \"value\": \"$opt_dummy_value\"}]", "id": "$opt_dummy_audience", "name": "Optimizely-Generated Audience for Backwards Compatibility"}], "groups": [], "attributes": [{"id": "10673990693", "key": "IS_CSR"}, {"id": "10675862039", "key": "isIntranetUser"}, {"id": "10676860589", "key": "VIEW_TYPE"}, {"id": "10677651877", "key": "isCsr"}, {"id": "10677781401", "key": "PAGE_TYPE"}, {"id": "10678531566", "key": "IS_BOT"}, {"id": "10680862308", "key": "viewType"}, {"id": "10682461400", "key": "isVisitor"}, {"id": "10683720902", "key": "IS_INTRANET"}, {"id": "10684630675", "key": "isBot"}, {"id": "11361281765", "key": "hasPurchased"}, {"id": "11370712958", "key": "registeredUser"}, {"id": "12016387704", "key": "environment"}, {"id": "12370020842", "key": "utmContent"}, {"id": "12383240743", "key": "utmTerm"}, {"id": "12385360508", "key": "utmSource"}, {"id": "12385420527", "key": "os"}, {"id": "12387560298", "key": "activeAutoship"}, {"id": "12396010023", "key": "browserType"}, {"id": "12396670722", "key": "utmCampaign"}, {"id": "12398270513", "key": "referralURL"}, {"id": "12422160144", "key": "utmMedium"}, {"id": "13118210245", "key": "testAttribute"}, {"id": "13554000162", "key": "noApartment"}, {"id": "13575190357", "key": "verifyAddress"}, {"id": "13578950110", "key": "shipToThisAddress"}, {"id": "13584140585", "key": "suggestedAddress"}, {"id": "13588230255", "key": "addressNotFound"}, {"id": "13770820561", "key": "platform"}], "botFiltering": true, "accountId": "10555604116", "events": [{"experimentIds": [], "id": "10649591699", "key": "purchase"}, {"experimentIds": [], "id": "10660490302", "key": "deals_click"}, {"experimentIds": [], "id": "10685291504", "key": "pdp_from_deals"}, {"experimentIds": [], "id": "10685571084", "key": "acquisition"}, {"experimentIds": [], "id": "11039333437", "key": "product_view"}, {"experimentIds": [], "id": "11067134035", "key": "nav_brand_open"}, {"experimentIds": [], "id": "11074343447", "key": "add_to_cart"}, {"experimentIds": [], "id": "11546935483", "key": "autoship_purchase"}, {"experimentIds": [], "id": "11787892242", "key": "autocomplete_search"}, {"experimentIds": [], "id": "11808422425", "key": "user_search"}, {"experimentIds": [], "id": "12126167576", "key": "account_create"}, {"experimentIds": [], "id": "12128589486", "key": "checkout"}, {"experimentIds": [], "id": "13358680524", "key": "account_login"}, {"experimentIds": [], "id": "13551850395", "key": "checkout_ship_to_this_address_view"}, {"experimentIds": [], "id": "13561610650", "key": "checkout_verify_address_view"}, {"experimentIds": [], "id": "13576840209", "key": "address_not_found_modal_view"}, {"experimentIds": [], "id": "13578910138", "key": "suggested_address_modal_view"}, {"experimentIds": [], "id": "13581000085", "key": "no_apartment_modal_view"}, {"experimentIds": [], "id": "13767140376", "key": "list_view"}], "revision": "571"},
+      experimentOverrides: {
+        
+          "2018_12_CATEGORY_SEARCH_RANK_MODE_V2": "ANUBIS",
+        
+          "2019_01_CHECKOUT_REFACTOR_V2": "REFACTOR",
+        
+      }
+    },
+    // TO DO : remove this, once changes are available to have user as part of the application scope. //
+    hasPurchased: "false",
+    disabledBrowserExtIds : "[\x22pbjikboenpfhbbejgkoklgkhjpfogcam\x22,\x224b3d47a9-20bb-544f-9333-6a93af3c9304\x22,\x22AmazonAssistant\x22,\x22com.amazon.AmazonAssistant\x22,\x22xxx_AmazoncomAmazonAssistant\x22]",
+    sessionAcquisitionData: {}
+  };
+
+  (function(overrides){
+    
+    // overwrite the experiment overrides with whatever the session is forcing.
+    
+    for (var experimentKey in overrides){
+      window.chewyConf.optimizely.experimentOverrides[experimentKey] = overrides[experimentKey];
+    }
+  })({})
+
+
+  window.chewy = window.chewy || {};
+  window.chewy.store = window.chewy.store || {};
+
+  
+
+  
+        var visitType = 'landing';
+    
+
+    window.chewy = window.chewy || {};
+    window.chewy.autoshipFirstTimeDiscountPercent = 30;
+    window.chewy.autoshipFirstTimeMaxSavingsAmount = 20;
+    window.chewy.userHasActiveAutoship = false;
+
+
+
+    window.chewy = window.chewy || {};
+    window.dataLayer = window.dataLayer || [];
+    //JS var only used by GA
+    window.chewy.pageType = 'browse';
+    
+    if (window.chewy.pageType === 'browse-brands') window.chewy.pageType = 'brand-page';
+    window.chewy.userId = '-1002';
+    window.chewy.environment = 'production'
+
+
+
+
+        var ravenOptions = {
+            ignoreErrors: [
+              // 
+                'top.GLOBALS',
+              // 
+                'originalCreateNotification',
+                'canvas.contentDocument',
+                'MyApp_RemoveAllHighlights',
+                'http://tt.epicplay.com',
+                'Can\'t find variable: ZiteReader',
+                'jigsaw is not defined',
+                'ComboSearch is not defined',
+                'http://loading.retry.widdit.com/',
+                'atomicFindClose',
+              // 
+                'fb_xd_fragment',
+              // 
+              // 
+              // 
+                'bmi_SafeAddOnload',
+                'EBCallBackMessageReceived',
+              // 
+                'conduitPage'
+            ],
+            ignoreUrls: [
+                // 
+                /graph\.facebook\.com/i,
+                // 
+                /connect\.facebook\.net\/en_US\/all\.js/i,
+                // 
+                /eatdifferent\.com\.woopra-ns\.com/i,
+                /static\.woopra\.com\/js\/woopra\.js/i,
+                // 
+                /extensions\//i,
+                /^chrome:\/\//i,
+                // 
+                /127\.0\.0\.1:4001\/isrunning/i,  // 
+                /webappstoolbarba\.texthelp\.com\//i,
+                /metrics\.itunes\.apple\.com\.edgesuite\.net\//i,
+                // 
+                /kaspersky-labs\.com/i,
+                // 
+                /sp\.analytics\.yahoo\.com/i,
+                // 
+                /^\/signals\/config/i,
+                /magiczoomplus\.js/i,
+                /magiczoomplus\.5\.2\.4\.js/i
+            ],
+            shouldSendCallback: function(data) {
+
+              // 
+              // 
+              // 
+              // 
+                if(window.chewyConf && window.chewyConf.isBot){
+                    return false;
+                }
+
+              // 
+              // 
+                if(/CriOS/i.test(navigator.userAgent) && data.exception && data.exception.values){
+                  // 
+                  for(var i = 0; i < data.exception.values.length; i++ ){
+                    var e = data.exception.values[i];
+
+                    if(e.type === 'SecurityError'
+                       && e.value.indexOf('Blocked a frame with origin') !== -1
+                       && e.value.indexOf('Protocols, domains, and ports must match.') !== -1){
+                        return false;
+                    }
+                  }
+                }
+
+              // 
+              // 
+                if(window.location.search.indexOf("catchpoint=true") !== -1 ){
+                  return false;
+                }
+
+                //TODO: filter out IE10 errors too.
+                var regexp = new RegExp('(\\s|^)ie-[89](\\s|$)');
+              // 
+                if(document.body.className.match(regexp)){
+                  return false;
+                }
+
+                return true;
+            },
+            
+          // 
+            sampleRate: 0.1,
+            
+            serverName: 'iad1gsfw05.ecom.chewy.com',
+            release: 'hotfix-3.0-1227.3-1',
+            environment : 'production',
+            tags: {
+                viewType : 'desktop',
+                pageType : 'browse'
+            },
+            extra: {
+                rid: '42e46cff,03-5C80E51D-4750294',
+                cid: '-1002'
+            }
+        };
+
+        Raven.config('https://9ba125d92cbf4e6d92f28364e8a4aae8@sentry.io/125686', ravenOptions).install();
+        Raven.setUserContext({id: '-1002'});
+
+    
+
+
+
+
+    // optimizelyClient will be undefined if customer is running adblock extension
+    if (window.optimizelyClient) {
+
+        (function(){
+
+            //TODO: provide our own logger that hooks into Sentry
+            window.chewy.optimizelyClient = window.optimizelyClient.createInstance({
+                datafile: window.chewyConf.optimizely.dataFile,
+                logLevel: parseInt($.cookie('cw-optilog'), 10) || 4
+            });
+
+            // Get browser name and OS name
+            // TODO: Duplicated from UserAgentUtils.kt - don't update one without the other - figure out how to import
+            // from com.chew.sfweb.utils.UserAgentUtils without script-loader issues in jspf and legacy js files.
+            var agent = navigator.userAgent.toLowerCase();
+            var browserName = "Unknown";
+            var OSName = "Unknown";
+            if (agent.indexOf("opera") !== -1) browserName = "Opera";
+            else if (agent.indexOf("msie") !== -1) browserName = "MSIE";
+            else if (agent.indexOf("chrome") !== -1) browserName = "Chrome";
+            else if (agent.indexOf("safari") !== -1) browserName = "Safari";
+            else if (agent.indexOf("firefox") !== -1) browserName = "Firefox";
+            if (agent.indexOf("windows") !== -1) OSName = "Windows";
+            else if (agent.indexOf("mac") !== -1) OSName = "MacOS";
+            else if (agent.indexOf("x11") !== -1) OSName = "UNIX";
+            else if (agent.indexOf("linux") !== -1) OSName = "Linux";
+
+            var commonAttributes = {
+                'isVisitor': (!window.chewyConf.isBot && !window.chewyConf.csr && !window.chewyConf.intranetUser).toString(),
+                'viewType': chewyConf.viewType,
+                'hasPurchased': chewyConf.hasPurchased.toString(),
+                'registeredUser': chewyConf.registeredUser.toString(),
+                'environment': chewyConf.environment,
+                'utmSource': window.chewyConf.sessionAcquisitionData.utm_source || "",
+                'utmMedium': window.chewyConf.sessionAcquisitionData.utm_medium || "",
+                'utmCampaign': window.chewyConf.sessionAcquisitionData.utm_campaign || "",
+                'utmTerm': window.chewyConf.sessionAcquisitionData.utm_term || "",
+                'utmContent': window.chewyConf.sessionAcquisitionData.utm_content || "",
+                'activeAutoship': window.chewy.userHasActiveAutoship.toString(),
+                'browserType': browserName,
+                'os': OSName,
+                'referralURL': window.chewyConf.sessionAcquisitionData.referer || ""
+            };
+
+            var _mergedAttributes = function(attrs){
+                return $.extend({}, commonAttributes, attrs);
+            };
+
+            window.chewy.optimizelyClient.safeTrack = function (eventKey, attributes, eventTags) {
+                return this.track(eventKey, window.chewyConf.personalizationId, _mergedAttributes(attributes), eventTags);
+            };
+
+            window.chewy.optimizelyClient.safeActivate = function (experimentKey, attributes) {
+                // Short circuit if there is an override in place for this experiment. Prevents
+                // calling activate if an override is in place.
+                if (window.chewyConf.optimizely.experimentOverrides[experimentKey]){
+                    return window.chewyConf.optimizely.experimentOverrides[experimentKey]
+                }
+
+                if(this.configObj.experimentKeyMap[experimentKey] === undefined){
+                    return null;
+                }
+
+                var keyName = 'optimizelyVariant_' + experimentKey + '_' + window.chewyConf.personalizationId;
+                var isStorageAvailable = window.chewy.storageAvailable();
+                var variantEntry = isStorageAvailable ? JSON.parse(localStorage.getItem(keyName)) : null;
+                if (!variantEntry) {
+
+                    var variantValue = this.activate(experimentKey, window.chewyConf.personalizationId, _mergedAttributes(attributes));
+
+                    if (variantValue == null) {
+                        return null;
+                    }
+                    variantEntry = JSON.stringify({
+                        value: variantValue,
+                        time: Date.now()
+                    });
+
+                    // TODO: SFW-6217 use callback instead to decouple
+                    if (window.chewy && window.chewy.gaHelper) {
+                        window.chewy.gaHelper.pushExperiment(experimentKey, variantValue);
+                    }
+
+                    if (isStorageAvailable) localStorage.setItem(keyName, variantEntry);
+                    return variantValue;
+                }
+                return variantEntry.value;
+            };
+
+            window.chewy.optimizelyClient.getSafeVariation = function (experimentKey, attributes) {
+                // if an override is set, just pass back the override
+                if (window.chewyConf.optimizely.experimentOverrides[experimentKey]){
+                  return window.chewyConf.optimizely.experimentOverrides[experimentKey]
+                }
+
+                if(this.configObj.experimentKeyMap[experimentKey] === undefined){
+                    return null;
+                }
+                return this.getVariation(experimentKey, window.chewyConf.personalizationId, _mergedAttributes(attributes));
+            };
+        })();
+
+    }
+
+
+
+    
+    var pageType = 'browse'
+    if (pageType === 'browse-brands') pageType = 'brand-page';
+
+    dataLayer.push({
+        'environment': 'production',
+        'viewType': 'desktop',
+        'app_version': 'hotfix-3.0-1227.3-1',
+        
+        'pageType': pageType,
+        
+        'ecomm_pagetype':'category',
+        'personalizationId': chewyConf.personalizationId,
+        'isBot': chewyConf.isBot,
+        'authenticationState': chewyConf.analyticsAuthenticationState,
+        
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    window.dataLayer.push({"ecomm_prodid":["154551","46861","49069"],"ecomm_category":"Food","ecomm_pagetype":"category"});
+
+
+    if (!window.chewy) window.chewy = {};
+    if (!window.chewy.pageData) window.chewy.pageData = {};
+    window.chewy.pageData.resultCount = '3261';
+    (function (window){
+        var eventData = {
+            'currencyCode' : 'USD',
+            'impressions' : [{"price":"48.99","name":"Taste of the Wild High Prairie Grain-Free Dry Dog Food, 28-lb bag","id":"154551","position":"1","dimension25":"false","category":"294","list":"browse","brand":"Taste of the Wild"},{"price":"48.99","name":"Blue Buffalo Life Protection Formula Adult Chicken \u0026 Brown Rice Recipe Dry Dog Food, 30-lb bag","id":"46861","position":"2","dimension25":"false","category":"294","list":"browse","brand":"Blue Buffalo"},{"price":"52.49","name":"Taste of the Wild Pacific Stream Grain-Free Dry Dog Food, 30-lb bag","id":"49069","position":"3","dimension25":"false","category":"294","list":"browse","brand":"Taste of the Wild"},{"price":"39.99","name":"American Journey Salmon \u0026 Sweet Potato Recipe Grain-Free Dry Dog Food, 24-lb bag","id":"108423","position":"4","dimension25":"false","category":"294","list":"browse","brand":"American Journey"},{"price":"52.99","name":"Blue Buffalo Wilderness Chicken Recipe Grain-Free Dry Dog Food, 24-lb bag","id":"46872","position":"5","dimension25":"false","category":"294","list":"browse","brand":"Blue Buffalo"},{"price":"47.98","name":"Purina Pro Plan Focus Adult Sensitive Skin \u0026 Stomach Salmon \u0026 Rice Formula Dry Dog Food, 30-lb bag","id":"101143","position":"6","dimension25":"false","category":"294","list":"browse","brand":"Purina Pro Plan"},{"price":"76.80","name":"Royal Canin Veterinary Diet Gastrointestinal Low Fat Canned Dog Food, 13.6-oz can, case of 24","id":"61822","position":"7","dimension25":"false","category":"293","list":"browse","brand":"Royal Canin Veterinary Diet"},{"price":"49.99","name":"Blue Buffalo Life Protection Formula Large Breed Adult Chicken \u0026 Brown Rice Recipe Dry Dog Food, 30-lb bag","id":"46882","position":"8","dimension25":"false","category":"294","list":"browse","brand":"Blue Buffalo"},{"price":"18.10","name":"Pedigree Adult Complete Nutrition Roasted Chicken, Rice \u0026 Vegetable Flavor Dry Dog Food, 33-lb bag","id":"114157","position":"9","dimension25":"false","category":"294","list":"browse","brand":"Pedigree"},{"price":"47.98","name":"Purina Pro Plan Sport All Life Stages Performance 30/20 Formula Dry Dog Food, 37.5-lb bag","id":"67708","position":"10","dimension25":"false","category":"294","list":"browse","brand":"Purina Pro Plan"},{"price":"48.99","name":"Blue Buffalo Life Protection Formula Healthy Weight Adult Chicken \u0026 Brown Rice Recipe Dry Dog Food, 30-lb bag","id":"46839","position":"11","dimension25":"false","category":"294","list":"browse","brand":"Blue Buffalo"},{"price":"33.79","name":"Purina ONE SmartBlend Chicken \u0026 Rice Adult Formula Dry Dog Food, 31.1-lb bag","id":"57183","position":"12","dimension25":"false","category":"294","list":"browse","brand":"Purina ONE"},{"price":"95.29","name":"Royal Canin Veterinary Diet Hydrolyzed Protein Adult HP Dry Dog Food, 25.3-lb bag","id":"50460","position":"13","dimension25":"false","category":"294","list":"browse","brand":"Royal Canin Veterinary Diet"},{"price":"39.99","name":"American Journey Chicken \u0026 Sweet Potato Recipe Grain-Free Dry Dog Food,  24-lb bag","id":"108411","position":"14","dimension25":"false","category":"294","list":"browse","brand":"American Journey"},{"price":"52.99","name":"Hill\u0027s Science Diet Adult Sensitive Stomach \u0026 Skin Chicken Recipe Dry Dog Food, 30-lb bag","id":"48856","position":"15","dimension25":"false","category":"294","list":"browse","brand":"Hill\u0027s Science Diet"},{"price":"31.94","name":"Iams ProActive Health Adult Large Breed Dry Dog Food, 30-lb bag","id":"62299","position":"16","dimension25":"false","category":"294","list":"browse","brand":"Iams"},{"price":"45.78","name":"Purina Pro Plan Savor Adult Shredded Blend Chicken \u0026 Rice Formula Dry Dog Food, 35-lb bag","id":"67512","position":"17","dimension25":"false","category":"294","list":"browse","brand":"Purina Pro Plan"},{"price":"54.99","name":"Blue Buffalo Wilderness Salmon Recipe Grain-Free Dry Dog Food, 24-lb bag","id":"46869","position":"18","dimension25":"false","category":"294","list":"browse","brand":"Blue Buffalo"},{"price":"35.99","name":"Diamond Naturals Beef Meal \u0026 Rice Formula Adult Dry Dog Food, 40-lb bag","id":"49749","position":"19","dimension25":"false","category":"294","list":"browse","brand":"Diamond"},{"price":"85.49","name":"Royal Canin Veterinary Diet Gastrointestinal Low Fat Dry Dog Food, 28.6-lb bag","id":"57599","position":"20","dimension25":"false","category":"294","list":"browse","brand":"Royal Canin Veterinary Diet"},{"price":"47.99","name":"Hill\u0027s Science Diet Adult Large Breed Dry Dog Food, 35-lb bag","id":"114165","position":"21","dimension25":"false","category":"294","list":"browse","brand":"Hill\u0027s Science Diet"},{"price":"26.99","name":"Purina Beneful Healthy Weight with Real Chicken Dry Dog Food, 31.1-lb bag","id":"46753","position":"22","dimension25":"false","category":"294","list":"browse","brand":"Purina Beneful"},{"price":"31.94","name":"Iams ProActive Health Adult MiniChunks Dry Dog Food, 30-lb bag","id":"51243","position":"23","dimension25":"false","category":"294","list":"browse","brand":"Iams"},{"price":"39.99","name":"American Journey Beef \u0026 Sweet Potato Recipe Grain-Free Dry Dog Food, 24-lb bag","id":"108427","position":"24","dimension25":"false","category":"294","list":"browse","brand":"American Journey"},{"price":"59.99","name":"Merrick Grain-Free Real Texas Beef \u0026 Sweet Potato Recipe Dry Dog Food, 25-lb bag","id":"62201","position":"25","dimension25":"false","category":"294","list":"browse","brand":"Merrick"},{"price":"22.99","name":"Dog Chow Complete Adult with Real Chicken Dry Dog Food, 42-lb bag","id":"100199","position":"26","dimension25":"false","category":"294","list":"browse","brand":"Dog Chow"},{"price":"9.59","name":"Hill\u0027s Prescription Diet Hypo-Treats Dog Treats, 12-oz bag","id":"127908","position":"27","dimension25":"false","category":"1489","list":"browse","brand":"Hill\u0027s Prescription Diet"},{"price":"49.99","name":"Blue Buffalo Life Protection Formula Adult Lamb \u0026 Brown Rice Recipe Dry Dog Food, 30-lb bag","id":"49557","position":"28","dimension25":"false","category":"294","list":"browse","brand":"Blue Buffalo"},{"price":"59.67","name":"Natural Balance L.I.D. Limited Ingredient Diets Sweet Potato \u0026 Fish Formula Grain-Free Dry Dog Food, 26-lb bag","id":"76787","position":"29","dimension25":"false","category":"294","list":"browse","brand":"Natural Balance"},{"price":"48.00","name":"Victor Hi-Pro Plus Formula Dry Dog Food, 40-lb bag","id":"93064","position":"30","dimension25":"false","category":"294","list":"browse","brand":"Victor"},{"price":"42.74","name":"Purina ONE SmartBlend True Instinct with Real Turkey \u0026 Venison Adult Dry Dog Food, 36-lb bag","id":"126354","position":"31","dimension25":"false","category":"294","list":"browse","brand":"Purina ONE"},{"price":"19.99","name":"American Journey Stews Poultry \u0026 Beef Variety Pack Grain-Free Canned Dog Food, 12.5-oz, case of 12","id":"133888","position":"32","dimension25":"false","category":"293","list":"browse","brand":"American Journey"},{"price":"42.63","name":"Nature\u0027s Recipe Grain-Free Salmon, Sweet Potato \u0026 Pumpkin Recipe Dry Dog Food, 24-lb bag","id":"51505","position":"33","dimension25":"false","category":"294","list":"browse","brand":"Nature\u0027s Recipe"},{"price":"33.60","name":"Purina ONE SmartBlend Lamb \u0026 Rice Adult Formula Dry Dog Food, 31.1-lb bag","id":"52630","position":"34","dimension25":"false","category":"294","list":"browse","brand":"Purina ONE"},{"price":"75.04","name":"Royal Canin Veterinary Diet Urinary SO Dry Dog Food, 25.3-lb bag","id":"49969","position":"35","dimension25":"false","category":"294","list":"browse","brand":"Royal Canin Veterinary Diet"},{"price":"24.60","name":"Kibbles \u0027n Bits Original Savory Beef \u0026 Chicken Flavors Dry Dog Food, 50-lb bag","id":"143319","position":"36","dimension25":"false","category":"294","list":"browse","brand":"Kibbles \u0027n Bits"}]
+        };
+
+        function ecom(ecommerce, listData) {
+            // First send the impression event itself
+            var batchId = Math.round(Math.random() * 100000000);
+            var impressionsList = JSON.parse(JSON.stringify(ecommerce.impressions));
+            delete ecommerce.impressions; // Send the impressions data in the batch loop instead
+            dataLayer.push({
+                event: 'analyticsEvent',
+                eventCategory: 'eec',
+                eventAction: 'impression',
+                eventLabel: 'browse',
+                eventNonInt: true,
+                ecommerce: ecommerce,
+                batchId: batchId,
+                'list-category': listData['list-category'],
+                'list-page-number': listData['list-page-number'],
+                resultCount: window.chewy.pageData.resultCount,
+                searchOutputKeyword : getSearchOutputKeyword(),
+                searchInputKeyword : getSearchInputKeyword()
+            });
+
+            // Setup the ecommerce batch object as a clone of the ecommerce object but with an empty impressions array
+            var ecommBatch = JSON.parse(JSON.stringify(ecommerce));
+            ecommBatch.impressions = [];
+
+            // Next, loop through the ecommerse impression items and send in batches of ten as "sendData" events
+            impressionsList.forEach(item => {
+                ecommBatch.impressions.push(item);
+                if (ecommBatch.impressions.length >= 12) {
+                    dataLayer.push({
+                        event: 'analyticsEvent',
+                        eventCategory: 'eec',
+                        eventAction: 'impression',
+                        eventLabel: 'sendData',
+                        eventNonInt: true,
+                        ecommerce: JSON.parse(JSON.stringify(ecommBatch)),
+                        batchId: batchId,
+                        'list-category': listData['list-category'],
+                        'list-page-number': listData['list-page-number']
+                    });
+                    ecommBatch.impressions = [];
+                }
+            });
+
+            // Send the final batch
+            if (ecommBatch.impressions.length) {
+                dataLayer.push({
+                    event: 'analyticsEvent',
+                    eventCategory: 'eec',
+                    eventAction: 'impression',
+                    eventLabel: 'sendData',
+                    eventNonInt: true,
+                    ecommerce: JSON.parse(JSON.stringify(ecommBatch)),
+                    'list-category': listData['list-category'],
+                    'list-page-number': listData['list-page-number']
+                });
+            }
+        }
+
+        function catId() {
+            // SFW-7318 Use JSTL to see if property getter exists on bean, via exception catch
+            
+                
+            
+
+            
+                
+                
+                    return '332';
+                
+            
+        }
+
+        function getSearchInputKeyword() {
+            var searchKeywordEl = document.querySelector('[data-input-keyword]');
+            return searchKeywordEl ? searchKeywordEl.getAttribute('data-input-keyword') : null;
+        }
+
+        // TODO: This will need to change to return the appropriate list (relaxed search results) output keywords when
+        // TODO: we work on SFW-8277 and SFW-8278
+        function getSearchOutputKeyword() {
+            var searchKeywordEl = document.querySelector('[data-output-keyword]');
+            return searchKeywordEl ? searchKeywordEl.getAttribute('data-output-keyword') : null;
+        }
+
+        var listData = {
+            'list-category': window.chewy.pageType + (catId() ? '-' + catId() : ''),
+            'list-page-number': '1'
+        };
+        dataLayer.push(listData);
+
+        setTimeout(function() { // Wait for DOM to finish constructing
+            var domNodes = [].slice.call(document.querySelectorAll('.js-product-select'));
+            var pageNumber = document.querySelector('.cw-pagination--is-active, .cw-pagination__current-page');
+            pageNumber = pageNumber ? pageNumber.innerText.split('/')[0].trim() : '1';
+
+            // For deals, if they exist on page, overwrite eventData with custom dimensions
+            eventData.impressions = eventData.impressions.map(function(product, index) {
+                if (domNodes && domNodes[index]) {
+                    product['p-deals-flag'] = (domNodes[index].querySelector('.badge-sale, .sale') ? 'yes' : 'no');
+
+                    var savingsPromo = '';
+                    [].slice.call(domNodes[index].querySelectorAll('.savings-promo')).forEach(function(promo) {
+                        savingsPromo += promo.innerText + ' ';
+                    });
+                    product['dimension19'] = savingsPromo.trim() || 'no';
+                    product['dimension20'] = pageNumber;
+                }
+
+                return product;
+            });
+            ecom(eventData, listData);
+        }, 250); // Wait for DOM to finish constructing
+
+    })(window);
+
+
+
+		@media (max-width: 424px) {
+			.cat-ban-10-332 .img-banner--mobile {
+				background-image: url(//cms-www.chewy.com/contentAsset/raw-data/fda639b6-d867-4cfc-8ee6-e3c28c7ef260/mobileBanner/830a7e0e-3ba9-4de4-95be-faec10a6150e); 
+				height: 125px; 
+				background-size: cover; 
+				background-position: center;
+			}
+		}
+		
+		@media (max-width: 969px) and (min-width: 425px) {
+			.cat-ban-10-332 .img-banner--tablet {
+				background-image: url(//cms-www.chewy.com/contentAsset/raw-data/fda639b6-d867-4cfc-8ee6-e3c28c7ef260/tabletBanner/830a7e0e-3ba9-4de4-95be-faec10a6150e); 
+				height: 150px; 
+				background-size: cover; 
+				background-position: center;
+			}
+			.cat-ban-10-332 .img-banner--desktop-tablet {
+				background-image: url(//cms-www.chewy.com/contentAsset/raw-data/fda639b6-d867-4cfc-8ee6-e3c28c7ef260/desktopBanner/830a7e0e-3ba9-4de4-95be-faec10a6150e); 
+				height: 170px; 
+				background-size: cover; 
+				background-position: center;
+			}
+		}
+		
+		@media (min-width: 970px) {
+			.cat-ban-10-332 .img-banner--desktop {
+				background-image: url(//cms-www.chewy.com/contentAsset/raw-data/fda639b6-d867-4cfc-8ee6-e3c28c7ef260/desktopBanner/830a7e0e-3ba9-4de4-95be-faec10a6150e); 
+				height: 170px; 
+				background-size: cover; 
+				background-position: center;
+			}
+
+			.cat-ban-10-332 .img-banner--desktop-tablet {
+				background-image: url(//cms-www.chewy.com/contentAsset/raw-data/fda639b6-d867-4cfc-8ee6-e3c28c7ef260/desktopBanner/830a7e0e-3ba9-4de4-95be-faec10a6150e); 
+				height: 170px; 
+				background-size: cover; 
+				background-position: center;
+			}
+		}
+	
+
+
+
+var basePath = "/";
+
+		document.addEventListener('DOMContentLoaded', function () {
+			window.chewy.dotcms.carousel.initFeatProductCarousel('119102,120825,119105,120827,119099,120824,122318,120826,122320', "carousel-05953383718337192");
+		});
+	
+
+
+
+        .promo-banner-cta {
+            border: 0.1rem solid #dddddd;
+            border-radius: 0.4rem;
+        }
+
+        .promo-banner-cta .cw-display__show-on-small {
+            color: #797979;
+            text-align: right;
+            margin-right: 10px;
+        }    
+
+        .promo-banner-cta .banlnk {     
+            align-items: center;
+        }
+
+        .promo-banner-cta a:hover {
+            text-decoration: none;
+        }
+        .promo-banner-cta .cw-btn {
+            margin-right: -3px;
+            padding: 1.2rem 2.2rem;
+        }
+    
+bazadebezolkohpepadr="1278044744"
+
+
+  
+
+
+
+
+
+  (function(w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+      "gtm.start": new Date().getTime(),
+      event: "gtm.js"
+    });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != "dataLayer" ? "&l=" + l : "";
+    j.async = true;
+    j.src =
+      "https://www.googletagmanager.com/gtm.js?id=" +
+      i +
+      dl +
+      "";
+    f.parentNode.insertBefore(j, f);
+  })(window, document, "script", "dataLayer", "GTM-5X325N");
+
+
+
+
+
+
+
+
+
+
+Chewy
+
+
+
+
+
+
+
+24/7 help
+                            
+
+
+
+                                        Get help from our experts 24/7
+                                        
+                                            1-800-672-4399
+
+
+
+
+
+
+Chat Live
+
+
+
+Contact Us
+
+
+
+Track Order
+FAQs
+Shipping Info
+
+
+
+ 
+
+
+
+your account
+
+
+
+
+Sign In
+New customer? Start here
+
+
+Account
+Orders
+Manage Autoship
+My Pets
+Favorites
+
+
+
+Manage Your Autoship
+
+
+
+  
+
+    $(document).on('click', '.js-gtm-proceed-to-checkout-dynamic', function () {
+        var productsArray = [];
+        $('#gaCartDomParent .ga-eec__container').each(function (index, item) {
+            productsArray.push(window.chewy.gaHelper.buildProductFieldObject(item));
+        });
+
+
+        dataLayer.push({
+            'event': 'analyticsEvent',
+            'eventCategory': 'eec',
+            'eventAction': 'checkout',
+            'ec:action': 'checkout',
+            'eventLabel': undefined,
+            'eventNonInt': true,
+            'ecommerce': {
+              'checkout': {
+                'actionField': {
+                  'step': 1
+                },
+                'products': productsArray
+              }
+            }
+        });
+
+    });
+
+0
+
+your cart
+
+
+Loading...
+
+Your cart is empty.
+Something missing? Sign in to see items you may have added from another computer or device.
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+shop by pet
+
+
+
+
+
+
+
+                Dog
+
+
+
+
+
+                Cat
+
+
+
+
+
+                Fish
+
+
+
+
+
+                Bird
+
+
+
+
+
+                Small Pet
+
+
+
+
+
+                Reptile
+
+
+
+
+
+                Horse
+
+
+
+
+
+                Pharmacy
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+shop by brand
+
+
+pharmacy
+
+
+
+
+                        Heartworm
+
+
+
+                        Flea & Tick
+
+
+
+                        Pain Relief & Arthritis
+
+
+
+                        Skin & Coat
+
+
+
+                        Allergy Relief
+
+
+
+                        Ear & Eye Care
+
+
+
+                        Medications
+
+
+
+                        Health Conditions
+
+
+
+
+
+
+        Today's Deals
+    
+
+
+
+
+
+
+
+                        FREE 1-2 DAY SHIPPING OVER $49!
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Save 30% on your first
+            
+Learn more
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+Dog
+Food
+
+
+
+
+
+
+
+Dog Food
+(1 - 36
+                of 3261 results)
+
+
+
+Sort by
+
+
+Relevance
+Newest
+Bestselling
+Price: Low to High
+Price: High to Low
+Avg. Customer Review
+Most Reviews
+
+
+
+Filter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dry Food
+
+
+
+
+
+
+
+
+
+Wet Food
+
+
+
+
+
+
+
+
+
+Prescription Food
+
+
+
+
+
+
+
+
+
+Freeze-Dried Food
+
+
+
+
+
+
+
+
+
+Human-Grade
+
+
+
+
+
+
+
+
+
+Dehydrated Food
+
+
+
+
+
+
+
+
+
+Frozen Food
+
+
+
+
+
+
+
+
+
+Food Toppings
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+New
+
+
+
+
+Taste of the Wild
+						 High Prairie Grain-Free Dry Dog Food, 28-lb bag
+					
+				
+			
+
+
+
+							$46.54
+						
+Autoship & Save
+
+
+
+							$48.99
+						
+
+
+
+
+
+
+
+
+2827
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+Taste of the Wild High Prairie Grain-Free Dry Dog Food, 28-lb bag
+154551
+Taste of the Wild
+294
+
+48.99
+1
+28-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Blue Buffalo
+						 Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 30-lb bag
+					
+				
+			
+
+
+
+							$46.54
+						
+Autoship & Save
+
+
+
+							$48.99
+						
+
+							
+								$52.99
+							
+						
+
+
+
+
+
+
+1696
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 30-lb bag
+46861
+Blue Buffalo
+294
+
+48.99
+2
+30-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Taste of the Wild
+						 Pacific Stream Grain-Free Dry Dog Food, 30-lb bag
+					
+				
+			
+
+
+
+							$49.87
+						
+Autoship & Save
+
+
+
+							$52.49
+						
+
+
+
+
+
+
+
+
+2214
+
+
+            
+                FREE 1-2 day shipping on this item
+            
+          
+
+
+
+USD
+Taste of the Wild Pacific Stream Grain-Free Dry Dog Food, 30-lb bag
+49069
+Taste of the Wild
+294
+
+52.49
+3
+30-lb bag
+false
+
+
+
+
+
+
+
+
+
+
+Instinct's Picks for Sensitive Pups
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+American Journey
+						 Salmon & Sweet Potato Recipe Grain-Free Dry Dog Food, 24-lb bag
+					
+				
+			
+
+
+						Buy 1 Get 1 FREE
+					
+
+
+							$35.99
+						
+Autoship & Save
+
+
+
+							$39.99
+						
+
+
+
+
+
+
+
+
+1799
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+American Journey Salmon & Sweet Potato Recipe Grain-Free Dry Dog Food, 24-lb bag
+108423
+American Journey
+294
+
+39.99
+4
+24-lb bag
+false
+
+
+
+
+
+
+
+
+
+
+Instinct's Picks for Sensitive Pups
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Blue Buffalo
+						 Wilderness Chicken Recipe Grain-Free Dry Dog Food, 24-lb bag
+					
+				
+			
+
+
+
+							$50.34
+						
+Autoship & Save
+
+
+
+							$52.99
+						
+
+							
+								$55.99
+							
+						
+
+
+
+
+
+
+1063
+
+
+            
+                FREE 1-2 day shipping on this item
+            
+          
+
+
+
+USD
+Blue Buffalo Wilderness Chicken Recipe Grain-Free Dry Dog Food, 24-lb bag
+46872
+Blue Buffalo
+294
+
+52.99
+5
+24-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Purina Pro Plan
+						 Focus Adult Sensitive Skin & Stomach Salmon & Rice Formula Dry Dog Food, 30-lb …
+					
+				
+			
+
+
+
+							$45.58
+						
+Autoship & Save
+
+
+
+							$47.98
+						
+
+
+
+
+
+
+
+
+928
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+Purina Pro Plan Focus Adult Sensitive Skin & Stomach Salmon & Rice Formula Dry Dog Food, 30-lb bag
+101143
+Purina Pro Plan
+294
+
+47.98
+6
+30-lb bag
+false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Royal Canin Veterinary Diet
+						 Gastrointestinal Low Fat Canned Dog Food, 13.6-oz can, case of 24
+					
+				
+			
+
+
+
+							$72.96
+						
+Autoship & Save
+
+
+
+							$76.80
+						
+
+							
+								$80.99
+							
+						
+
+
+
+
+
+
+1052
+
+
+            
+                FREE 1-2 day shipping on this item
+            
+          
+
+
+
+USD
+Royal Canin Veterinary Diet Gastrointestinal Low Fat Canned Dog Food, 13.6-oz can, case of 24
+61822
+Royal Canin Veterinary Diet
+293
+
+76.80
+7
+
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Blue Buffalo
+						 Life Protection Formula Large Breed Adult Chicken & Brown Rice Recipe Dry Dog Food…
+					
+				
+			
+
+
+
+							$47.49
+						
+Autoship & Save
+
+
+
+							$49.99
+						
+
+							
+								$55.99
+							
+						
+
+
+
+
+
+
+600
+
+
+            
+                FREE 1-2 day shipping on this item
+            
+          
+
+
+
+USD
+Blue Buffalo Life Protection Formula Large Breed Adult Chicken & Brown Rice Recipe Dry Dog Food, 30-lb bag
+46882
+Blue Buffalo
+294
+
+49.99
+8
+30-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Pedigree
+						 Adult Complete Nutrition Roasted Chicken, Rice & Vegetable Flavor Dry Dog Food, 33-lb …
+					
+				
+			
+
+
+
+							$18.10
+						
+
+
+
+
+
+
+
+
+276
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+Pedigree Adult Complete Nutrition Roasted Chicken, Rice & Vegetable Flavor Dry Dog Food, 33-lb bag
+114157
+Pedigree
+294
+
+18.10
+9
+33-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Purina Pro Plan
+						 Sport All Life Stages Performance 30/20 Formula Dry Dog Food, 37.5-lb bag
+					
+				
+			
+
+
+
+							$45.58
+						
+Autoship & Save
+
+
+
+							$47.98
+						
+
+
+
+
+
+
+
+
+638
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+Purina Pro Plan Sport All Life Stages Performance 30/20 Formula Dry Dog Food, 37.5-lb bag
+67708
+Purina Pro Plan
+294
+
+47.98
+10
+37.5-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Blue Buffalo
+						 Life Protection Formula Healthy Weight Adult Chicken & Brown Rice Recipe Dry Dog F…
+					
+				
+			
+
+
+
+							$46.54
+						
+Autoship & Save
+
+
+
+							$48.99
+						
+
+							
+								$52.99
+							
+						
+
+
+
+
+
+
+796
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+Blue Buffalo Life Protection Formula Healthy Weight Adult Chicken & Brown Rice Recipe Dry Dog Food, 30-lb bag
+46839
+Blue Buffalo
+294
+
+48.99
+11
+30-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Purina ONE
+						 SmartBlend Chicken & Rice Adult Formula Dry Dog Food, 31.1-lb bag
+					
+				
+			
+
+
+
+							$32.10
+						
+Autoship & Save
+
+
+
+							$33.79
+						
+
+
+
+
+
+
+
+
+586
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+Purina ONE SmartBlend Chicken & Rice Adult Formula Dry Dog Food, 31.1-lb bag
+57183
+Purina ONE
+294
+
+33.79
+12
+31.1-lb bag
+false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save $15 Off Your First Bag Of Grain-Free Dry Dog Food
+
+
+
+
+
+
+
+
+
+
+
+
+
+                SHOP NOW
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+
+
+
+Royal Canin Veterinary Diet
+						 Hydrolyzed Protein Adult HP Dry Dog Food, 25.3-lb bag
+					
+				
+			
+
+
+
+							$90.53
+						
+Autoship & Save
+
+
+
+							$95.29
+						
+
+							
+								$99.99
+							
+						
+
+
+
+
+
+
+691
+
+
+            
+                FREE 1-2 day shipping on this item
+            
+          
+
+
+
+USD
+Royal Canin Veterinary Diet Hydrolyzed Protein Adult HP Dry Dog Food, 25.3-lb bag
+50460
+Royal Canin Veterinary Diet
+294
+
+95.29
+13
+25.3-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+American Journey
+						 Chicken & Sweet Potato Recipe Grain-Free Dry Dog Food,  24-lb bag
+					
+				
+			
+
+
+						Buy 1 Get 1 FREE
+					
+
+
+							$35.99
+						
+Autoship & Save
+
+
+
+							$39.99
+						
+
+
+
+
+
+
+
+
+942
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+American Journey Chicken & Sweet Potato Recipe Grain-Free Dry Dog Food,  24-lb bag
+108411
+American Journey
+294
+
+39.99
+14
+24-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Hill's Science Diet
+						 Adult Sensitive Stomach & Skin Chicken Recipe Dry Dog Food, 30-lb bag
+					
+				
+			
+
+
+
+							$50.34
+						
+Autoship & Save
+
+
+
+							$52.99
+						
+
+							
+								$61.99
+							
+						
+
+
+
+
+
+
+538
+
+
+            
+                FREE 1-2 day shipping on this item
+            
+          
+
+
+
+USD
+Hill's Science Diet Adult Sensitive Stomach & Skin Chicken Recipe Dry Dog Food, 30-lb bag
+48856
+Hill's Science Diet
+294
+
+52.99
+15
+30-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Iams
+						 ProActive Health Adult Large Breed Dry Dog Food, 30-lb bag
+					
+				
+			
+
+
+
+							$30.34
+						
+Autoship & Save
+
+
+
+							$31.94
+						
+
+							
+								$34.99
+							
+						
+
+
+
+
+
+
+388
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+Iams ProActive Health Adult Large Breed Dry Dog Food, 30-lb bag
+62299
+Iams
+294
+
+31.94
+16
+30-lb bag
+false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save $15 Off Your First Bag Of Grain-Free Dry Dog Food
+
+
+
+
+
+
+
+
+
+
+
+
+
+                SHOP NOW
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Purina Pro Plan
+						 Savor Adult Shredded Blend Chicken & Rice Formula Dry Dog Food, 35-lb bag
+					
+				
+			
+
+
+
+							$43.49
+						
+Autoship & Save
+
+
+
+							$45.78
+						
+
+
+
+
+
+
+
+
+739
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+Purina Pro Plan Savor Adult Shredded Blend Chicken & Rice Formula Dry Dog Food, 35-lb bag
+67512
+Purina Pro Plan
+294
+
+45.78
+17
+35-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Blue Buffalo
+						 Wilderness Salmon Recipe Grain-Free Dry Dog Food, 24-lb bag
+					
+				
+			
+
+
+
+							$52.24
+						
+Autoship & Save
+
+
+
+							$54.99
+						
+
+							
+								$59.99
+							
+						
+
+
+
+
+
+
+778
+
+
+            
+                FREE 1-2 day shipping on this item
+            
+          
+
+
+
+USD
+Blue Buffalo Wilderness Salmon Recipe Grain-Free Dry Dog Food, 24-lb bag
+46869
+Blue Buffalo
+294
+
+54.99
+18
+24-lb bag
+false
+
+
+
+
+
+
+
+
+
+
+
+
+Diamond
+						 Naturals Beef Meal & Rice Formula Adult Dry Dog Food, 40-lb bag
+					
+				
+			
+
+
+
+							$34.19
+						
+Autoship & Save
+
+
+
+							$35.99
+						
+
+
+
+
+
+
+
+
+565
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+Diamond Naturals Beef Meal & Rice Formula Adult Dry Dog Food, 40-lb bag
+49749
+Diamond
+294
+
+35.99
+19
+
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+
+
+
+Royal Canin Veterinary Diet
+						 Gastrointestinal Low Fat Dry Dog Food, 28.6-lb bag
+					
+				
+			
+
+
+
+							$81.22
+						
+Autoship & Save
+
+
+
+							$85.49
+						
+
+							
+								$89.99
+							
+						
+
+
+
+
+
+
+1104
+
+
+            
+                FREE 1-2 day shipping on this item
+            
+          
+
+
+
+USD
+Royal Canin Veterinary Diet Gastrointestinal Low Fat Dry Dog Food, 28.6-lb bag
+57599
+Royal Canin Veterinary Diet
+294
+
+85.49
+20
+28.6-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Hill's Science Diet
+						 Adult Large Breed Dry Dog Food, 35-lb bag
+					
+				
+			
+
+
+
+							$45.59
+						
+Autoship & Save
+
+
+
+							$47.99
+						
+
+							
+								$55.99
+							
+						
+
+
+
+
+
+
+325
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+Hill's Science Diet Adult Large Breed Dry Dog Food, 35-lb bag
+114165
+Hill's Science Diet
+294
+
+47.99
+21
+35-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Purina Beneful
+						 Healthy Weight with Real Chicken Dry Dog Food, 31.1-lb bag
+					
+				
+			
+
+
+
+							$25.64
+						
+Autoship & Save
+
+
+
+							$26.99
+						
+
+
+
+
+
+
+
+
+312
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+Purina Beneful Healthy Weight with Real Chicken Dry Dog Food, 31.1-lb bag
+46753
+Purina Beneful
+294
+
+26.99
+22
+31.1-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Iams
+						 ProActive Health Adult MiniChunks Dry Dog Food, 30-lb bag
+					
+				
+			
+
+
+
+							$30.34
+						
+Autoship & Save
+
+
+
+							$31.94
+						
+
+							
+								$34.99
+							
+						
+
+
+
+
+
+
+539
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+Iams ProActive Health Adult MiniChunks Dry Dog Food, 30-lb bag
+51243
+Iams
+294
+
+31.94
+23
+30-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+American Journey
+						 Beef & Sweet Potato Recipe Grain-Free Dry Dog Food, 24-lb bag
+					
+				
+			
+
+
+						Buy 1 Get 1 FREE
+					
+
+
+							$35.99
+						
+Autoship & Save
+
+
+
+							$39.99
+						
+
+
+
+
+
+
+
+
+900
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+American Journey Beef & Sweet Potato Recipe Grain-Free Dry Dog Food, 24-lb bag
+108427
+American Journey
+294
+
+39.99
+24
+24-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Merrick
+						 Grain-Free Real Texas Beef & Sweet Potato Recipe Dry Dog Food, 25-lb bag
+					
+				
+			
+
+
+
+							$56.99
+						
+Autoship & Save
+
+
+
+							$59.99
+						
+
+
+
+
+
+
+
+
+855
+
+
+            
+                FREE 1-2 day shipping on this item
+            
+          
+
+
+
+USD
+Merrick Grain-Free Real Texas Beef & Sweet Potato Recipe Dry Dog Food, 25-lb bag
+62201
+Merrick
+294
+
+59.99
+25
+25-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Dog Chow
+						 Complete Adult with Real Chicken Dry Dog Food, 42-lb bag
+					
+				
+			
+
+
+
+							$22.99
+						
+
+
+
+
+
+
+
+
+250
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+Dog Chow Complete Adult with Real Chicken Dry Dog Food, 42-lb bag
+100199
+Dog Chow
+294
+
+22.99
+26
+42-lb bag
+false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hill's Prescription Diet
+						 Hypo-Treats Dog Treats, 12-oz bag
+					
+				
+			
+
+
+
+							$9.11
+						
+Autoship & Save
+
+
+
+							$9.59
+						
+
+
+
+
+
+
+
+
+568
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+Hill's Prescription Diet Hypo-Treats Dog Treats, 12-oz bag
+127908
+Hill's Prescription Diet
+1489
+
+9.59
+27
+12-oz bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Blue Buffalo
+						 Life Protection Formula Adult Lamb & Brown Rice Recipe Dry Dog Food, 30-lb bag
+					
+				
+			
+
+
+
+							$47.49
+						
+Autoship & Save
+
+
+
+							$49.99
+						
+
+							
+								$55.99
+							
+						
+
+
+
+
+
+
+572
+
+
+            
+                FREE 1-2 day shipping on this item
+            
+          
+
+
+
+USD
+Blue Buffalo Life Protection Formula Adult Lamb & Brown Rice Recipe Dry Dog Food, 30-lb bag
+49557
+Blue Buffalo
+294
+
+49.99
+28
+30-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Natural Balance
+						 L.I.D. Limited Ingredient Diets Sweet Potato & Fish Formula Grain-Free Dry Dog …
+					
+				
+			
+
+
+
+							$56.69
+						
+Autoship & Save
+
+
+
+							$59.67
+						
+
+							
+								$62.99
+							
+						
+
+
+
+
+
+
+718
+
+
+            
+                FREE 1-2 day shipping on this item
+            
+          
+
+
+
+USD
+Natural Balance L.I.D. Limited Ingredient Diets Sweet Potato & Fish Formula Grain-Free Dry Dog Food, 26-lb bag
+76787
+Natural Balance
+294
+
+59.67
+29
+26-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Victor
+						 Hi-Pro Plus Formula Dry Dog Food, 40-lb bag
+					
+				
+			
+
+
+
+							$45.60
+						
+Autoship & Save
+
+
+
+							$48.00
+						
+
+							
+								$50.50
+							
+						
+
+
+
+
+
+
+591
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+Victor Hi-Pro Plus Formula Dry Dog Food, 40-lb bag
+93064
+Victor
+294
+
+48.00
+30
+40-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Purina ONE
+						 SmartBlend True Instinct with Real Turkey & Venison Adult Dry Dog Food, 36-lb bag
+					
+				
+			
+
+
+
+							$40.60
+						
+Autoship & Save
+
+
+
+							$42.74
+						
+
+
+
+
+
+
+
+
+606
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+Purina ONE SmartBlend True Instinct with Real Turkey & Venison Adult Dry Dog Food, 36-lb bag
+126354
+Purina ONE
+294
+
+42.74
+31
+36-lb bag
+false
+
+
+
+
+
+
+
+
+
+
+
+
+American Journey
+						 Stews Poultry & Beef Variety Pack Grain-Free Canned Dog Food, 12.5-oz, case of…
+					
+				
+			
+
+
+						Buy 1 Get 1 FREE
+					
+
+
+							$17.99
+						
+Autoship & Save
+
+
+
+							$19.99
+						
+
+
+
+
+
+
+
+
+478
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+American Journey Stews Poultry & Beef Variety Pack Grain-Free Canned Dog Food, 12.5-oz, case of 12
+133888
+American Journey
+293
+
+19.99
+32
+12.5-oz, case of 12
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Nature's Recipe
+						 Grain-Free Salmon, Sweet Potato & Pumpkin Recipe Dry Dog Food, 24-lb bag
+					
+				
+			
+
+
+
+							$40.50
+						
+Autoship & Save
+
+
+
+							$42.63
+						
+
+							
+								$47.99
+							
+						
+
+
+
+
+
+
+775
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+Nature's Recipe Grain-Free Salmon, Sweet Potato & Pumpkin Recipe Dry Dog Food, 24-lb bag
+51505
+Nature's Recipe
+294
+
+42.63
+33
+24-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Purina ONE
+						 SmartBlend Lamb & Rice Adult Formula Dry Dog Food, 31.1-lb bag
+					
+				
+			
+
+
+
+							$31.92
+						
+Autoship & Save
+
+
+
+							$33.60
+						
+
+
+
+
+
+
+
+
+564
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+Purina ONE SmartBlend Lamb & Rice Adult Formula Dry Dog Food, 31.1-lb bag
+52630
+Purina ONE
+294
+
+33.60
+34
+31.1-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+
+
+
+Royal Canin Veterinary Diet
+						 Urinary SO Dry Dog Food, 25.3-lb bag
+					
+				
+			
+
+
+
+							$71.29
+						
+Autoship & Save
+
+
+
+							$75.04
+						
+
+							
+								$78.99
+							
+						
+
+
+
+
+
+
+933
+
+
+            
+                FREE 1-2 day shipping on this item
+            
+          
+
+
+
+USD
+Royal Canin Veterinary Diet Urinary SO Dry Dog Food, 25.3-lb bag
+49969
+Royal Canin Veterinary Diet
+294
+
+75.04
+35
+25.3-lb bag
+false
+
+
+
+
+
+
+
+
+					
+						
+						
+							More Choices Available
+						
+					
+				
+
+
+
+
+
+Kibbles 'n Bits
+						 Original Savory Beef & Chicken Flavors Dry Dog Food, 50-lb bag
+					
+				
+			
+
+
+
+							$24.60
+						
+
+							
+								$26.99
+							
+						
+
+
+
+
+
+
+168
+
+
+            
+                FREE 1-2 day shipping over $49
+            
+          
+
+
+
+USD
+Kibbles 'n Bits Original Savory Beef & Chicken Flavors Dry Dog Food, 50-lb bag
+143319
+Kibbles 'n Bits
+294
+
+24.60
+36
+50-lb bag
+false
+
+
+
+
+
+
+
+Prev
+
+1
+
+
+2
+
+
+3
+
+...
+91
+
+Next
+
+
+
+
+Dog Food
+
+Your four-legged friend rewards you in many ways. Whether it’s accompanying you on a brisk jog to help you stay in shape, or giving you a cuddle when you need it most, there’s no denying how rewarding a pup can be. Show your appreciation and reward your furry friend with the foods and dog treats they crave.
+Chewy carries a wide range of delicious dog foods and tasty dog treats for your precious pup. When it comes to choosing a dog food, you may find all the options overwhelming. Let us help you find the best one with dog food reviews, ingredient information, and personal one-on-one attention when you give us a call at 1-800-672-4399. At Chewy we understand the important role dog food plays. Most of the nutrients your dog needs to stay strong and healthy comes from the food they eat. Chewy carries healthy dog food brands like Blue Buffalo dog food, Royal Canin dog food, Taste of the Wild dog food and Hill’s Prescription Diet dog food. We even carry grain-free dog food, limited ingredient dog food for pups with food allergies or sensitivities and diet dog food.
+Dry dog food is great for the pup parent who is away all day. Dry dog kibble can be left out for your canine companion to snack on throughout the day without spoiling. Dry dog kibble can also be good for your dog’s teeth -crunchy kibble helps pups get rid of pesky plaque and tartar. Wet dog food often contains flavors and ingredients canines love. Freeze-dried dog food is another option, the limited ingredients in freeze-dried dog food varieties makes it a great dog food for sensitive stomachs or food allergies. And you may also consider feeding your pup dehydrated dog food. Dehydrated dog food is created by taking the whole foods found in a raw doggie diet, and slowly heating them until they’re dehydrated. An added bonus: Dehydrated dog food is easy to transport for pup parents who are on the go. And, frozen dog food is another great option. These doggie meals offer your pet the nutrition he was meant to consume in the wild and are rich in protein and typically contain less additives. Whether it’s dry kibble your dog desires or a grain-free wet food your canine craves, you can find this and more at Chewy's online pet store where you find the best dog supplies.
+
+
+
+Show More
+
+
+
+
+
+
+
+Show results for:
+
+
+
+Categories
+
+
+
+Dog
+
+Food
+
+Dry Food (1440)
+										  
+
+Wet Food (1420)
+										  
+
+Prescription Food (166)
+										  
+
+Freeze-Dried Food (166)
+										  
+
+Human-Grade (74)
+										  
+
+Dehydrated Food (70)
+										  
+
+Frozen Food (24)
+										  
+
+Food Toppings (148)
+										  
+
+
+
+
+Brand
+
+
+
+
+
+														Addiction (19)
+												
+
+
+
+														Adirondack (4)
+												
+
+
+
+														Against the Grain (6)
+												
+
+
+
+														Almo Nature (5)
+												
+
+
+
+														ALPO (17)
+												
+
+
+
+														American Journey (35)
+												
+
+
+
+														American Natural Premium (10)
+												
+
+
+
+														Annamaet (14)
+												
+
+
+
+														Artemis (4)
+												
+
+
+
+														Authority (34)
+												
+
+
+
+														AvoDerm (31)
+												
+
+
+
+														Basics (2)
+												
+
+
+
+														Beaverdam Pet Food (4)
+												
+
+
+
+														Beneful (22)
+												
+
+
+
+														Bil-Jac (18)
+												
+
+
+
+														Black Gold (10)
+												
+
+
+
+														Blackwood (21)
+												
+
+
+
+														Blue Basics (20)
+												
+
+
+
+														Blue Buffalo (179)
+												
+
+
+
+														Blue Buffalo Natural Veterinary Diet (11)
+												
+
+
+
+														Blue Freedom (22)
+												
+
+
+
+														Blue Life Protection (69)
+												
+
+
+
+														Blue Wilderness (62)
+												
+
+
+
+														Bravo! (3)
+												
+
+
+
+														Breeder's Choice (31)
+												
+
+
+
+														Brothers Complete (4)
+												
+
+
+
+														Buckley (3)
+												
+
+
+
+														Canada Fresh (6)
+												
+
+
+
+														CANIDAE (45)
+												
+
+
+
+														Canine Caviar (11)
+												
+
+
+
+														Caru (14)
+												
+
+
+
+														Castor & Pollux (57)
+												
+
+
+
+														Cat-Man-Doo (1)
+												
+
+
+
+														Catered Bowl (10)
+												
+
+
+
+														Cesar (85)
+												
+
+
+
+														Chicken Soup (10)
+												
+
+
+
+														Cloud Star (10)
+												
+
+
+
+														Crave (13)
+												
+
+
+
+														Dave's Pet Food (38)
+												
+
+
+
+														Diamond (28)
+												
+
+
+
+														Dog Chow (17)
+												
+
+
+
+														Dog Lovers Gold (1)
+												
+
+
+
+														Dogswell (20)
+												
+
+
+
+														Dr. Gary's Best Breed (13)
+												
+
+
+
+														Dr. Harvey's (5)
+												
+
+
+
+														Dr. Tim's (10)
+												
+
+
+
+														Eagle Pack (11)
+												
+
+
+
+														Earthborn Holistic (27)
+												
+
+
+
+														Eukanuba (33)
+												
+
+
+
+														Evanger's (47)
+												
+
+
+
+														Evolve (15)
+												
+
+
+
+														Farmina (17)
+												
+
+
+
+														FirstMate (24)
+												
+
+
+
+														Forza10 (6)
+												
+
+
+
+														Full Moon (9)
+												
+
+
+
+														Gather (3)
+												
+
+
+
+														Gentle Giants (6)
+												
+
+
+
+														Go! (25)
+												
+
+
+
+														Grandma Lucy's (19)
+												
+
+
+
+														Great Life (3)
+												
+
+
+
+														Halo (24)
+												
+
+
+
+														Health Extension (28)
+												
+
+
+
+														Herbsmith (3)
+												
+
+
+
+														HI-TOR (4)
+												
+
+
+
+														Hill's (133)
+												
+
+
+
+														Hill's Ideal Balance (8)
+												
+
+
+
+														Hill's Prescription Diet (64)
+												
+
+
+
+														Hill's Science Diet (67)
+												
+
+
+
+														Holistic Blend (9)
+												
+
+
+
+														Holistic Select (22)
+												
+
+
+
+														Horizon (13)
+												
+
+
+
+														Hound & Gatos (11)
+												
+
+
+
+														I and Love and You (24)
+												
+
+
+
+														Iams (30)
+												
+
+
+
+														Instinct (80)
+												
+
+
+
+														Inukshuk (3)
+												
+
+
+
+														Joy (5)
+												
+
+
+
+														K9 Natural (16)
+												
+
+
+
+														KASIKS (6)
+												
+
+
+
+														KetoNatural (1)
+												
+
+
+
+														Kibbles 'n Bits (16)
+												
+
+
+
+														Kinetic (4)
+												
+
+
+
+														Lotus (30)
+												
+
+
+
+														Lucy Pet Products (2)
+												
+
+
+
+														Meat Mates (4)
+												
+
+
+
+														Merrick (94)
+												
+
+
+
+														Mighty Dog (13)
+												
+
+
+
+														Mixables (10)
+												
+
+
+
+														Moist & Meaty (4)
+												
+
+
+
+														My Little Wolf (2)
+												
+
+
+
+														Natural Balance (57)
+												
+
+
+
+														Natural Ultramix (8)
+												
+
+
+
+														Nature's Logic (28)
+												
+
+
+
+														Nature's Recipe (34)
+												
+
+
+
+														Nature's Variety (80)
+												
+
+
+
+														Newman's Own (16)
+												
+
+
+
+														Now Fresh (19)
+												
+
+
+
+														NRG (9)
+												
+
+
+
+														Nulo (27)
+												
+
+
+
+														Nutrisca (7)
+												
+
+
+
+														Nutro (131)
+												
+
+
+
+														Nutro Max (10)
+												
+
+
+
+														Nutro Ultra (37)
+												
+
+
+
+														Olewo (2)
+												
+
+
+
+														Only Natural Pet (29)
+												
+
+
+
+														Organix (26)
+												
+
+
+
+														Party Animal (14)
+												
+
+
+
+														Pedigree (55)
+												
+
+
+
+														Petchup (2)
+												
+
+
+
+														Petcurean (36)
+												
+
+
+
+														PetGuard (13)
+												
+
+
+
+														PetKind (26)
+												
+
+
+
+														Pioneer Naturals (1)
+												
+
+
+
+														Plato (3)
+												
+
+
+
+														Precise (14)
+												
+
+
+
+														Precise Holistic Complete (7)
+												
+
+
+
+														Precise Naturals (7)
+												
+
+
+
+														Primal (8)
+												
+
+
+
+														Pro Pac (10)
+												
+
+
+
+														Puppy Chow (9)
+												
+
+
+
+														Purina (256)
+												
+
+
+
+														Purina Bella (25)
+												
+
+
+
+														Purina Beneful (42)
+												
+
+
+
+														Purina Beyond (27)
+												
+
+
+
+														Purina ONE (33)
+												
+
+
+
+														Purina Pro Plan (88)
+												
+
+
+
+														Purina Pro Plan Veterinary Diets (26)
+												
+
+
+
+														Rachael Ray Nutrish (35)
+												
+
+
+
+														Realtree (1)
+												
+
+
+
+														Redbarn (20)
+												
+
+
+
+														Royal Canin (164)
+												
+
+
+
+														Royal Canin Breed Health Nutrition (49)
+												
+
+
+
+														Royal Canin Size Health Nutrition (47)
+												
+
+
+
+														Royal Canin Veterinary Diet (65)
+												
+
+
+
+														Science Diet (61)
+												
+
+
+
+														Simply Nourish (27)
+												
+
+
+
+														Sojos (19)
+												
+
+
+
+														Solid Gold (42)
+												
+
+
+
+														Sport Dog Food (11)
+												
+
+
+
+														SPORTMiX (16)
+												
+
+
+
+														Sportsman's Pride (5)
+												
+
+
+
+														Spot Farms (8)
+												
+
+
+
+														Stella & Chewy's (25)
+												
+
+
+
+														Stewart Raw Naturals (8)
+												
+
+
+
+														Strongpoint (1)
+												
+
+
+
+														Supreme Source (4)
+												
+
+
+
+														Taste of the Wild (14)
+												
+
+
+
+														Tender & True (12)
+												
+
+
+
+														The Honest Kitchen (40)
+												
+
+
+
+														The Real Meat Company (3)
+												
+
+
+
+														Tiki Dog (32)
+												
+
+
+
+														Tripett (15)
+												
+
+
+
+														Triumph (19)
+												
+
+
+
+														TruDog (3)
+												
+
+
+
+														True Acre Foods (2)
+												
+
+
+
+														True Chews (4)
+												
+
+
+
+														TruFood (11)
+												
+
+
+
+														Tuscan Natural (7)
+												
+
+
+
+														Tylee's (5)
+												
+
+
+
+														Under the Sun (15)
+												
+
+
+
+														V-Dog (2)
+												
+
+
+
+														Vets Choice (22)
+												
+
+
+
+														Victor (22)
+												
+
+
+
+														Visionary Pet Foods (3)
+												
+
+
+
+														Vital Essentials (15)
+												
+
+
+
+														Walk About (6)
+												
+
+
+
+														Wellness (96)
+												
+
+
+
+														Wellness Complete Health (24)
+												
+
+
+
+														Wellness CORE (29)
+												
+
+
+
+														Wellness Simple (7)
+												
+
+
+
+														Weruva (36)
+												
+
+
+
+														Wet Noses (1)
+												
+
+
+
+														Whole Earth Farms (26)
+												
+
+
+
+														Whole Life (21)
+												
+
+
+
+														Wild Calling (10)
+												
+
+
+
+														Wild Frontier (26)
+												
+
+
+
+														Wishbone (4)
+												
+
+
+
+														Wysong (33)
+												
+
+
+
+														Zignature (31)
+												
+
+
+
+														Ziwi (12)
+												
+
+
+
+														ZiwiPeak (10)
+												
+
+
+
+
+Food Form
+
+
+
+
+
+														Air-Dried (15)
+												
+
+
+
+														Dehydrated (80)
+												
+
+
+
+														Dry Food (1440)
+												
+
+
+
+														Food Topping (172)
+												
+
+
+
+														Freeze-Dried (226)
+												
+
+
+
+														Frozen (24)
+												
+
+
+
+														Human-Grade Whole Food (5)
+												
+
+
+
+														Liquid (24)
+												
+
+
+
+														Mix (17)
+												
+
+
+
+														Powder (11)
+												
+
+
+
+														Raw (14)
+												
+
+
+
+														Supplement (8)
+												
+
+
+
+														Treats (66)
+												
+
+
+
+														Wet Food (1427)
+												
+
+
+
+
+Packaging Type
+
+
+
+
+
+														Can (1052)
+												
+
+
+
+														Tray (318)
+												
+
+
+
+														Variety Pack (106)
+												
+
+
+
+														Pouch (92)
+												
+
+
+
+														Box (18)
+												
+
+
+
+														Roll (9)
+												
+
+
+
+
+Food Texture
+
+
+
+
+
+														Pate (711)
+												
+
+
+
+														Chunks in Gravy (284)
+												
+
+
+
+														Stew (272)
+												
+
+
+
+														Minced (74)
+												
+
+
+
+														Shredded (52)
+												
+
+
+
+														Bits in Broth (49)
+												
+
+
+
+														Ground (14)
+												
+
+
+
+														Sliced (5)
+												
+
+
+
+														Aspic / Gelee (4)
+												
+
+
+
+														Grilled (2)
+												
+
+
+
+														Flaked (1)
+												
+
+
+
+
+Special Diet
+
+
+
+
+
+														Flax-Free (12)
+												
+
+
+
+														Gluten Free (941)
+												
+
+
+
+														GMO-Free (358)
+												
+
+
+
+														Grain-Free (1765)
+												
+
+
+
+														High-Protein (418)
+												
+
+
+
+														Human-Grade (105)
+												
+
+
+
+														Indoor (4)
+												
+
+
+
+														Limited Ingredient Diet (378)
+												
+
+
+
+														Low Glycemic (89)
+												
+
+
+
+														Low-Protein (16)
+												
+
+
+
+														No Corn No Wheat No Soy (1605)
+												
+
+
+
+														Organic (67)
+												
+
+
+
+														Pea-Free (45)
+												
+
+
+
+														Prescription Food (166)
+												
+
+
+
+														Sensitive Digestion (355)
+												
+
+
+
+														Vegan (11)
+												
+
+
+
+														Vegetarian (20)
+												
+
+
+
+														Weight Control (156)
+												
+
+
+
+
+Food Flavor
+
+
+
+
+
+														Alligator (4)
+												
+
+
+
+														Bacon (37)
+												
+
+
+
+														Beef (600)
+												
+
+
+
+														Bison (3)
+												
+
+
+
+														Boar (14)
+												
+
+
+
+														Brushtail (2)
+												
+
+
+
+														Buffalo (32)
+												
+
+
+
+														Catfish (2)
+												
+
+
+
+														Cheese (19)
+												
+
+
+
+														Chicken (1482)
+												
+
+
+
+														Cod (4)
+												
+
+
+
+														Duck (208)
+												
+
+
+
+														Eel (1)
+												
+
+
+
+														Fish (179)
+												
+
+
+
+														Fruits & Berries (30)
+												
+
+
+
+														Game Bird (5)
+												
+
+
+
+														Goat (7)
+												
+
+
+
+														Guinea Fowl (2)
+												
+
+
+
+														Honey (1)
+												
+
+
+
+														Kangaroo (7)
+												
+
+
+
+														Lamb (420)
+												
+
+
+
+														Lentil (6)
+												
+
+
+
+														Liver (58)
+												
+
+
+
+														Mackerel (4)
+												
+
+
+
+														Peanut Butter (1)
+												
+
+
+
+														Pheasant (2)
+												
+
+
+
+														Pork (70)
+												
+
+
+
+														Pumpkin (57)
+												
+
+
+
+														Quail (10)
+												
+
+
+
+														Rabbit (34)
+												
+
+
+
+														Roast Beef (1)
+												
+
+
+
+														Salmon (263)
+												
+
+
+
+														Seafood (10)
+												
+
+
+
+														Shrimp (3)
+												
+
+
+
+														Sweet Potato (169)
+												
+
+
+
+														Tripe (9)
+												
+
+
+
+														Tuna (26)
+												
+
+
+
+														Turkey (401)
+												
+
+
+
+														Veggie (144)
+												
+
+
+
+														Venison (79)
+												
+
+
+
+														Yogurt (3)
+												
+
+
+
+
+Health Feature
+
+
+
+
+
+														Digestive Health (88)
+												
+
+
+
+														Skin & Coat Health (79)
+												
+
+
+
+														Hip & Joint Support (36)
+												
+
+
+
+														Kidney Care (19)
+												
+
+
+
+														Urinary Tract Health (18)
+												
+
+
+
+														Brain Health (17)
+												
+
+
+
+														Immune Support (15)
+												
+
+
+
+														Dental & Breath Care (11)
+												
+
+
+
+														High-Energy (10)
+												
+
+
+
+														Heart Care (6)
+												
+
+
+
+														Sensitive Skin (5)
+												
+
+
+
+														Liver Care (4)
+												
+
+
+
+														Diabetic Support (3)
+												
+
+
+
+														Recovery (3)
+												
+
+
+
+														Vitamins & Minerals (3)
+												
+
+
+
+														Calming (2)
+												
+
+
+
+														Appetite Stimulation (1)
+												
+
+
+
+														Ear Care (1)
+												
+
+
+
+														Eye Care (1)
+												
+
+
+
+														Itch & Redness Remedy (1)
+												
+
+
+
+														Tear Stain removal (1)
+												
+
+
+
+
+Lifestage
+
+
+
+
+
+														Adult (2912)
+												
+
+
+
+														Puppy (253)
+												
+
+
+
+														Senior (131)
+												
+
+
+
+
+Breed Size
+
+
+
+
+
+														Extra Small & Toy Breeds (360)
+												
+
+
+
+														Giant Breeds (143)
+												
+
+
+
+														Large Breeds (2810)
+												
+
+
+
+														Medium Breeds (2660)
+												
+
+
+
+														Small Breeds (3067)
+												
+
+
+
+
+Customer Rating
+
+
+
+
+
+
+
+
+																		& up
+																	 (2950)
+												
+
+
+
+
+
+
+																		& up
+																	 (3101)
+												
+
+
+
+
+
+
+																		& up
+																	 (3113)
+												
+
+
+
+
+
+
+																		& up
+																	 (3116)
+												
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Our experts are available 24/7:
+1-800-672-4399
+
+
+
+
+chat now
+
+
+
+
+email us
+
+back to top
+
+
+
+
+
+
+About
+Account
+Blog
+FAQs
+Jobs
+Gift Guide
+My Pets
+Affiliates
+
+
+
+
+
+Facebook
+YouTube
+Instagram
+Twitter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2019 Chewy, Inc.
+Terms of Use
+Privacy Policy
+Interest-Based Ads
+
+
+
+
+
+
+
+
+
+
+
+
+    window.criteo_q = window.criteo_q || [];
+    var deviceType = true;
+    switch (deviceType) { case (/Android/.test(navigator.userAgent)) : deviceType = 'Android'; break; case (/iPhone/.test(navigator.userAgent)) : deviceType = 'iPhone'; break; case (/iPad/.test(navigator.userAgent)) : deviceType = 'iPad'; break; default : deviceType = 'desktop'; }
+
+    window.criteo_q.push(
+      { event: "setAccount", account: 5494},
+      
+      { event: "setData", ui_device: deviceType},
+      { event: "viewList", item: [ '154551','46861','49069' ] }
+    );
+
+
+
+
+
+
+
+  $.ajax({
+    url: 'https://chewy.widget.custhelp.com/euf/rightnow/RightNow.Client.js',
+    dataType: 'script',
+    cache: true, //default for script is false
+    success: function(){
+      if (typeof RightNow !== 'undefined'){
+
+        $(function(){
+
+          $('.js-chewyChatLinkContainer').each(function(index, el) {
+            var rightNowChatContainer = $(el);
+
+            RightNow.Client.Controller.addComponent(
+              {
+                chat_login_page: "/app/chat/chat_launch",
+                chat_login_page_height: 560,
+                chat_login_page_width: 500,
+                container_element_id: rightNowChatContainer.id,
+                link_element_id: rightNowChatContainer.find('.js-chewyChatLink').attr('id'),
+                info_element_id: rightNowChatContainer.find('.js-chewyChatLinkInfo').attr('id'),
+                instance_id: "sccl_" + index,
+                min_sessions_avail: 0,
+                wait_threshold: 1800,
+                enable_availability_check: true,
+                enable_polling: false,
+                open_in_new_window: true,
+                label_available_immediately_template: "",
+                label_available_with_wait_template: "",
+                label_default: "",
+                label_unavailable_busy_template: "",
+                label_unavailable_hours: "",
+                module: "ConditionalChatLink",
+                type: 7
+              },
+              "https://chewy.widget.custhelp.com/ci/ws/get"
+            );
+            RightNow.Client.Event.evt_widgetLoaded.subscribe(chatWidgetLoaded);
+            function chatWidgetLoaded(type, args) {
+              if (args[0].name === "ConditionalChatLink" && args[0].id === "sccl_" + index)
+              {
+                var eventObj = new RightNow.Client.EventObject(args[0].name, args[0].id);
+                eventObj.data = {
+                  customFields: {
+                    // CustomField "139" for "referrer_url2"
+                    "139": window.location.href.replace(/(^\w+:|^)\/\//, '') // removes protocol from url
+                  }
+                  
+                };
+                RightNow.Client.Event.evt_updateWidgetData.fire(eventObj);
+              }
+            }
+          });
+
+        });
+
+      }
+    }
+  });
+
+
+
+
+  // do not trigger GTS inclusion in non-prod environments to prevent 404
+  if(window.chewyConf.environment === 'production'){
+    var gts = gts || [];
+
+    gts.push(["id", "483342"]);
+    gts.push(["badge_position", "USER_DEFINED"]);
+    gts.push(["badge_container", "GTS_CONTAINER"]);
+    gts.push(["locale", "en_US"]);
+    
+    gts.push(["google_base_country", "US"]);
+    gts.push(["google_base_language", "en"]);
+
+    (function() {
+      var gts = document.createElement("script");
+      gts.async = true;
+      gts.src = "https://www.googlecommerce.com/trustedstores/api/js";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(gts, s);
+    })();
+  } else {
+    //the fallback is to preserve layout structure across prod/non-prod
+    $('#GTS_CONTAINER').append('<div id="___ratingbadge_0" style="text-indent: 0; margin: 0; padding: 0; background: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 165px; height: 54px;">');
+
+  }
+
+
+
+
+(function(w,d,t,r,u){w[u]=w[u]||[];w[u].push({'projectId':'1000174518454','properties':{'pixelId':'437270'}});var s=d.createElement(t);s.src=r;s.async=true;s.onload=s.onreadystatechange=function(){var y,rs=this.readyState,c=w[u];if(rs&&rs!="complete"&&rs!="loaded"){return}try{y=YAHOO.ywa.I13N.fireBeacon;w[u]=[];w[u].push=function(p){y([p])};y(c)}catch(e){}};var scr=d.getElementsByTagName(t)[0],par=scr.parentNode;par.insertBefore(s,scr)})(window,document,"script","https://s.yimg.com/wi/ytc.js","dotq");
+
+
+var _cf = _cf || []; _cf.push(['_setFsp', true]); _cf.push(['_setBm', true]); _cf.push(['_setAu', '/assets/22fcf73b233fc31bbb901a033725']);
+
+
